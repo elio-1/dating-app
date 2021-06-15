@@ -1,2 +1,31 @@
-<h1>Public#home</h1>
-<p>Find me in app/views/public/home.html.erb</p>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Start now for Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Join the best dating site</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>free stuffs</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Sign up today</h4>
+          </div>
+          <div class="card-body">
+            <p>Click the button to get started.</p>
+            <%= link_to "Sign up now", new_account_registration_path, class: "w-100 btn btn-lg btn-primary"%> 
+
+          </div>
+        </div>
+      </div>
+</div>
