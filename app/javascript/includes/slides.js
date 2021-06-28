@@ -1,4 +1,4 @@
-
+alert('test');
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
@@ -9,4 +9,3 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }
-alert('test')
